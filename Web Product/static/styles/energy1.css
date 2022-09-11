@@ -1,0 +1,101 @@
+
+input[type=number]{
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+    height:1cm;
+    width: 15cm;
+    border-radius: 3cm
+}
+#xari_bulbul{
+    width: 2cm;
+    height: 2cm;
+}
+#sezon{
+
+    text-align: center;
+    width:10cm;
+    height:1cm;
+    border-radius:3cm;
+}
+
+#form_container{
+    
+    border: 0cm;
+    background-color: rgba(155, 173, 161, 0.24);
+    width:15cm;
+    height: 15cm;
+    font-family:'Courier New', Courier, monospace;
+    
+    text-align: center;
+    align-items: center;
+    align-self: center;
+}
+
+    
+}
+label{
+    color:#fafafa;
+    font-style: oblique;
+    
+}
+
+p{
+color:#fafafa
+}
+
+
+#rayon{
+    height: 1cm;
+    width :6cm;
+    border-radius: 10cm;
+}
+#unvan{
+    height: 1cm;
+    width :6cm;
+    border-radius: 10cm;
+}
+
+#form_butonu{
+    height: 1cm;
+    width: 3cm;
+    color: blue;
+    border-radius: 2cm;
+}
+
+#form_butonu:hover{
+    background-color: aqua;
+
+
+}
+h3{
+
+    text-align: center;
+
+}
+body{
+
+    background-image: linear-gradient(rgb(7, 167, 17), rgb(52, 184, 249));
+}
+
+#bas_div{
+    text-align: center;
+    height: 5cm;
+}
+
+#xerc{
+    
+    text-align: center;
+    align-items: center;
+
+
+}
+
+#season{
+
+    border-radius: 3;
+
+
+
+
+}
+

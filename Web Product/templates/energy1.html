@@ -1,0 +1,57 @@
+<title>DataBank</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/energy1.css') }}">
+</head>
+<body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <img src=".\wind.jpg" >
+    <div class="container" id = "bas_div"
+    <center><a href="localhost:5000"><img src="/static/xari.png" alt="Xari Bulbul" id="xari_bulbul"></a></center>
+        <center><h1>{{app_name}}</h1></center>
+        <center><h4>Welcome to the new World!</h4></center>
+        </div><br>
+      <div class ="container" id="form_container">
+        <form action="/energy1" method="POST">
+
+
+        <br>
+        <br>
+        <label>Coal</label>
+        <input type="number" id="komur" name="komur" value=" >
+        <br>
+        <label>Oil</label>
+        <input type="number" id="neft" name="neft" >
+        <br>
+        <label>Natural gas</label>
+        <input type="number" id="qaz" name="qaz" >
+        <br>
+        <br>
+        <label>Hydro reserves</label>
+        <input type="number" id="hidro" name="hidro su rezervi" >
+        <br>
+        
+        <br>
+        <label>Solar energy</label>
+        <input type="number" id="gunes" name="gunes" >
+        <br>
+        <label>Season</label><br>
+        <select id="season" name="season">
+        <option value="yaz">Spring</option >
+          <option value="yay">Summer</option>
+          <option value="payiz">Autumn</option>
+          <option value="qis">Winter</option>
+        </select>
+        <br>
+        <label>Wind</label>
+        <input type="number" id="kulek" name="kulek" >
+          <br>
+          <br>
+          <center><p>Cost: {{predictions}}</p></center>
+        <input type="submit" value="Predict" id="form_butonu"></div>           
+    </form>
+        
+      </div>  
+        
+</body>
+</html>

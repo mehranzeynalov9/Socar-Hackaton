@@ -1,0 +1,56 @@
+#age_box{
+    height:1cm;
+    width: 10cm;
+    border-radius: 3cm;
+}
+#username_box{
+    height:1cm;
+    width: 10cm;
+    border-radius: 3cm
+}
+#bas_div{
+    width:40cm;
+    height:30cm ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: auto;
+    text-align: center;
+    align-items: center;
+
+}
+
+body {
+    background-image: linear-gradient(rgb(7, 167, 17), rgb(52, 184, 249));
+  }
+
+  h1{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  #xari_bulbul{
+    width: 3cm;
+    height: 3cm;
+
+
+  }
+
+  .fcc-btn{
+    background-color: green;
+    padding: 4cm;
+
+  }
+
+  app1:hover{
+
+    color: blueviolet;
+
+
+
+  }
+
+  .container{
+    margin-left: 2cm;
+    align-items: center;
+    /* display: flex;
+    flex-wrap: wrap;   */
+  }

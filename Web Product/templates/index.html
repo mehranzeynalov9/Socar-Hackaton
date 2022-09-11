@@ -1,0 +1,21 @@
+<title>GreenAI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <center><img src="/static/xari.png" alt="Xari Bulbul" id="xari_bulbul"></center>
+        <center><h1>{{app_name}}</h1></center>
+        <center><h4>Welcome to the new World!</h4></center>
+        <br>
+        <div class="container">
+            <center><h4><a href='/demand'id="app2"><button style="padding:2cm;background-color: darkgreen;border-radius: 1cm;">Energy Demand Prediction</button></a>
+            <a href='/power'id="app2"><button style="padding:2cm;background-color: darkgreen;border-radius: 1cm;">Solar Panel Placement</button></a>
+            <a href='/energy1' id="app1"><button style="padding:2cm;background-color: darkgreen;border-radius: 1cm;">Energy Cost Prediction</button></a></h4></center>
+            
+            
+
+            <!-- <a href='/energy1' id="app1"><button>Enerji xərclərinin prognozu</button></a>
+            <a href='/power'id="app2"><button>Günəş panellərinin quraşdırılması üçün potensial yerlərin müəyyənləşdirilməsi</button></a>
+            <a href='/demand'id="app2"><button>Enerji tələbatının prognozu</button></a> -->
+        </div>
