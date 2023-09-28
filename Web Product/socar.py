@@ -1,3 +1,4 @@
+# Alas Academyden salamlar!
 
 from urllib.robotparser import RequestRate
 from xgboost import XGBRegressor
